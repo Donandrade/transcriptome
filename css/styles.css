@@ -1,0 +1,18 @@
+/* Importa uma fonte do Google Fonts (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Aplica a fonte ao corpo do documento */
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Exclui tabelas da fonte padrão e aplica uma fonte diferente, se desejado */
+table, th, td {
+  font-family: 'Arial', sans-serif; /* Fonte para tabelas */
+}
+
+/* Adiciona estilos adicionais para elementos de código */
+pre, code {
+  font-family: 'Source Code Pro', monospace;
+}
+
